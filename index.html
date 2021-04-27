@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <title>Registration Form</title>
+          <link rel="stylesheet" href="mycss.css">
+     </head>
+     <body>
+
+          <h2>SCHEMAX Registration Form</h2>
+          <form action="/action_page.php">
+               <div>
+                    <label for="fname">First name: </label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+               </div>
+               <div>
+                    <label for="lname">Last name: </label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+               </div>
+               <div>
+                    <label for="bday">Birth Date: </label>
+                    <input type="date" id="bday" name="bday"><br>
+               </div>
+               <div>
+                    <label for="gender">Gender: </label>
+                    <select id="gender" name="gender">
+                         <option>Male</option>
+                         <option>Female</option>
+                         <option>Other</option>
+                    </select><br>
+               </div>
+               <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Email"><br>
+               </div>
+               <div>
+                    <label for="phno">Mobile Number: </label>
+                    <input type="tel" id="phno" name="phno" placeholder="Mobile Number"><br>
+               </div>
+               <div>
+                    <label for="unv">University: </label>
+                    <input type="text" id="unv" name="unv" placeholder="University"><br>
+               </div>
+
+               
+               <br>
+               <input type="submit" value="Submit" id="submit">
+          </form> 
+
+<!-- <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p> -->
+
+     </body>
+</html>

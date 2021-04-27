@@ -1,0 +1,39 @@
+body{
+     background-color:aliceblue;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+     font-size: 50px;
+     text-align: center;
+}
+
+form {
+     font-size: 36px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     transform: translate(24%, 0%)
+     
+}
+
+div{
+     margin-bottom: 10px;
+}
+
+label{
+     display: inline-block;
+     width: 500px;
+     
+}
+
+input{
+     height: 30px;
+     font-size: 20px;
+}
+
+select{
+     height: 30px;
+     font-size: 20px;
+}
+
+#submit{
+     transform: translate(450%, 0%)
+}
