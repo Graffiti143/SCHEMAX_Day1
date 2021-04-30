@@ -38,3 +38,7 @@ select{
 #submit{
      transform: translate(450%, 0%)
 }
+
+#bday{
+     width: 280px;
+}
